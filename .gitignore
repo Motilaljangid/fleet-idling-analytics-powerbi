@@ -1,0 +1,27 @@
+# Real data
+*.csv
+*.xlsx
+*.xls
+*.bak
+*.mdf
+*.ldf
+
+# Power BI files with embedded data
+*.pbix
+
+# Logs
+*.log
+etl_run_log.txt
+
+# Secrets
+.env
+config.py
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local scratch
+SQLQuery*.sql
